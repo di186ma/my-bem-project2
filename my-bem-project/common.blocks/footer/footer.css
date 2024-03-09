@@ -1,0 +1,40 @@
+.footer {
+  background: #DAD871;
+  display: flex;
+  justify-content: center;
+}
+.footer .footer__wrapper {
+  display: flex;
+  align-items: center;
+}
+@media screen and (max-width: 767.98px) {
+  .footer .footer__wrapper {
+    flex-direction: column;
+  }
+}
+.footer .footer__wrapper .footer__first {
+  width: 250px;
+}
+@media screen and (max-width: 767.98px) {
+  .footer .footer__wrapper .footer__first {
+    text-align: center;
+  }
+}
+.footer .footer__wrapper .footer__second {
+  width: calc(100% - 250px);
+}
+@media screen and (max-width: 767.98px) {
+  .footer .footer__wrapper .footer__second {
+    width: 100%;
+  }
+}
+.footer .footer__wrapper .footer__second .footer__text {
+  text-align: right;
+}
+@media screen and (max-width: 767.98px) {
+  .footer .footer__wrapper .footer__second .footer__text {
+    text-align: center;
+  }
+}
+
+/*# sourceMappingURL=footer.css.map */
